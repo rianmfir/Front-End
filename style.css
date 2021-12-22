@@ -1,0 +1,166 @@
+body {
+  margin: 0px;
+/* 
+  font-family: "Crimson Pro", serif;
+  font-family: "Roboto Slab", serif; */
+}
+
+.navbar {
+  padding: 1rem 2rem;
+  background-color: #CBF1F5;
+}
+
+#nb {
+  font-style: italic;
+  font-family: "bahamas", serif;
+}
+
+.hero {
+  padding-top: 1rem;
+  margin-bottom: -50px;
+  background-color: #CBF1F5;
+  text-align: center;
+}
+
+#profile {
+  width: 200px;
+  height: 180px;
+  border: 5px solid;
+  border-radius: 50%;
+  border-color: rgb(176, 211, 230);
+}
+
+.port {
+  margin: 0.5rem;
+}
+
+.port:hover {
+  box-shadow: 1px 1px 0px 2px black;
+  /* border-radius: 100%; */
+  /* width: 80px; */
+  background-color: white;
+  cursor: pointer;
+}
+
+
+.bio {
+  background-color: #F5F5F5;
+  width: 100%;
+  text-align: center;
+  height: auto;
+}
+#services {
+  padding: 20px;
+  font-size: 30px;
+  padding-bottom: 0px;
+  margin-bottom: 10px;
+}
+#prof {
+  font-style: italic;
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 5%;
+}
+
+
+#skill {
+  margin-top: -4%;
+  background-color: #CBF1F5;
+  display: flex;
+  justify-content: center;
+  height: auto;
+  padding-bottom: 13rem;
+  margin-bottom: -20%;
+}
+
+#article1 {
+  margin-top: -7%;
+  width: 350px;
+  padding: 20px;
+  text-align: center;
+}
+#article2 {
+  margin-top: -7%;
+  width: 350px;
+  padding: 20px;
+  text-align: center;
+}
+
+.skills {
+  box-shadow: 2px 2px 2px 1px black;
+  border-radius: 10%;
+  height: 4rem;
+  width: 5rem;
+  margin: 1rem 1rem 0 0;
+}
+
+.skills:hover {
+  box-shadow: 2px 2px 2px 1px black;
+  border-radius: 10%;
+  height: 6rem;
+  width: 7rem;
+  background-color: white;
+  cursor: grab;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 90%;
+  padding: 12px;
+  border: 1px solid black;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  border-radius: 10px;
+}
+
+#buttonSend {
+  width: 94%;
+  padding: 10px;
+  background-color: #3ddbe9;
+  box-shadow: 0px 2px 2px black;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: black;
+  
+}
+#buttonSend:hover {
+  background-color: #A6E3E9;
+  cursor: pointer;
+}
+
+.contact {
+  width: 50%;
+  margin: auto;
+  margin-top: -10%;
+  margin-bottom: 100px;
+}
+
+.contact h1 {
+  text-align: center;
+}
+
+.contact label {
+  text-align: left;
+}
+
+.column {
+  min-width: 350px;
+  max-width: 700px;
+}
+
+footer {
+  margin-top: -20px;
+  height: 50px;
+  width: 100%;
+  background-color: #71c9ce;
+  color: white;
+  text-align: center;
+}
+
+footer p {
+  line-height: 50px;
+  color: black;
+  font-weight: bold;
+}
